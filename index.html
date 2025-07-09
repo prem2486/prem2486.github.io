@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Add favicon link here (new addition) -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Portfolio</title>
+</head>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">PREM KUMAR NEELI</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/prem2486" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/prem2004/" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:neelipremkumar27@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Prem Kumar Neeli 👋</h2>
+        <p>I’m a Computer Applications graduate with a strong interest in software development, AI/ML, and cybersecurity. I’ve built projects like credit card fraud detection and am currently enhancing my skills in Java full-stack development. I’m driven by a passion to build impactful tech solutions and continuously grow as a developer.</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Testimony</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/photo.jpg" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        As a Computer Applications graduate, I’ve gained foundational experience in programming, data analysis, and web development. I’m actively expanding my technical skill set through hands-on projects and continuous learning in areas like full-stack development and AI/ML.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html.webp" alt="html logo">
+          <span>HTML</span>
+        </div>
+
+        <div class="cell">
+            <img src="images/Java-logo.svg" alt="html logo">
+            <span>JAVA</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/c.jpeg" alt="html logo">
+            <span>C Language</span>
+          </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/python-logo.png" alt="node logo">
+          <span>Python</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/r-logo.png" alt="react logo">
+          <span>R Language</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/photo.jpg">
+          <p>Prem Kumar Neeli</p>
+          <p>As a intern</p>
+        </div>
+
+        <div class="text">
+            “Prem consistently demonstrated a strong work ethic and a genuine passion for learning. His contribution to our AI/ML project stood out for its clarity and creativity.”<br>
+            — <b>Mentor, AI & ML Internship</b> <br>
+            
+            “Reliable, detail-oriented, and a team player — Prem brought a great balance of technical skill and collaboration to our full-stack development project.”<br>
+            — <b>Project Lead, Web Development</b>  <br>
+            
+            “During his time as a cybersecurity intern, Prem showcased analytical thinking and a proactive approach to identifying vulnerabilities. A promising talent in the field.”<br>
+            — <b>Supervisor, Cybersecurity Internship.</b>
+        </div>
+      </div>
+    </section>
+
+   
+    <!-- SECTION 4: Projects -->
+<section id="projects" class="projects-section">
+  <h2>Projects</h2>
+  
+  <div class="projects-container">
+    <!-- Fraud Detection Project -->
+    <div class="project-card short-term">
+      <div class="project-badge">Short-Term Project</div>
+      <div class="project-header">
+        <i class="fas fa-search-dollar project-icon"></i>
+        <h3>Fraud Detection Using Visualization</h3>
+      </div>
+      <div class="project-content">
+        <ul>
+          <li>Developed visualization dashboard for <strong>credit card fraud detection</strong> using Anaconda Navigator</li>
+          <li>Utilized <strong>pandas, matplotlib, and seaborn</strong> to analyze transaction data</li>
+          <li>Identified fraud patterns through exploratory data analysis (EDA) techniques</li>
+        </ul>
+        <div class="tech-stack">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Pandas</span>
+          <span class="tech-tag">Data Visualization</span>
+          <span class="tech-tag">Scikit-learn</span>
+        </div>
+      </div>
+      <a href="certificates/short_term project.pdf" class="project-link" target="_blank">
+        <i class="fas fa-file-alt"></i> View Case Study
+      </a>
+    </div>
+
+    <!-- Website Development -->
+    <div class="project-card">
+      <div class="project-header">
+        <i class="fas fa-laptop-code project-icon"></i>
+        <h3>Responsive Website Development</h3>
+      </div>
+      <div class="project-content">
+        <ul>
+          <li>Created fully <strong>responsive website</strong> with mobile-first approach</li>
+          <li>Implemented adaptive layouts for all screen sizes</li>
+          <li>Optimized for performance and accessibility</li>
+        </ul>
+        <div class="tech-stack">
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">UI/UX</span>
+        </div>
+      </div>
+      <a href="#" class="project-link" target="_blank">
+        <i class="fas fa-external-link-alt"></i> View Live
+      </a>
+    </div>
+
+    <!-- Cybersecurity Project -->
+    <div class="project-card long-term">
+      <div class="project-badge">Long-Term Project</div>
+      <div class="project-header">
+        <i class="fas fa-shield-alt project-icon"></i>
+        <h3>Cybersecurity Project</h3>
+      </div>
+      <div class="project-content">
+        <div class="project-subsection">
+          <h4>Introduction to Cyber Attack Tree</h4>
+          <ul>
+            <li>Modeled attack vectors using <strong>attack tree structures</strong></li>
+            <li>Assessed system vulnerabilities through hierarchical threat modeling</li>
+          </ul>
+        </div>
+        
+        <div class="project-subsection">
+          <h4>Threat Analysis & Countermeasures</h4>
+          <ul>
+            <li>Conducted systematic <strong>threat modeling</strong></li>
+            <li>Proposed security solutions and risk mitigation strategies</li>
+          </ul>
+        </div>
+        
+        <div class="project-subsection">
+          <h4>VAPT Implementation</h4>
+          <ul>
+            <li>Port scanning & service enumeration</li>
+            <li>PostgreSQL exploitation using <code>postgres_payload</code></li>
+            <li>File extraction via privilege escalation</li>
+          </ul>
+        </div>
+        
+        <div class="tech-stack">
+          <span class="tech-tag">Kali Linux</span>
+          <span class="tech-tag">Metasploit</span>
+          <span class="tech-tag">OWASP</span>
+          <span class="tech-tag">PostgreSQL</span>
+        </div>
+      </div>
+      <a href="certificates/longterm project.pdf" class="project-link" target="_blank">
+        <i class="fas fa-file-alt"></i> View Case Study
+      </a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- SECTION 5: Certifications -->
+<section id="certifications" class="certifications-section">
+  <h2>Certifications</h2>
+  
+  <div class="certifications-container">
+    <!--Forage-->
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/Forage.webp" alt="Oracle Logo">
+        <h3>Accenture Simulation</h3>
+      </div>
+      <p class="issuer">Forage</p>
+      <a href="certificates/Accenture certificate.pdf" target="_blank" class="view-cert">View Credential</a>
+    </div>
+
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/Forage.webp" alt="Oracle Logo">
+        <h3>Blackbird Simulation</h3>
+      </div>
+      <p class="issuer">Forage</p>
+      <a href="certificates//Blackbird certificate.pdf" target="_blank" class="view-cert">View Credential</a>
+    </div>
+
+    <!-- Oracle Certifications -->
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/Oracle-Logo.jpg" alt="Oracle Logo">
+        <h3>DBMS</h3>
+      </div>
+      <p class="issuer">Oracle Academy</p>
+      <a href="certificates/oracle certificate.pdf" target="_blank" class="view-cert">View Credential</a>
+    </div>
+
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/Oracle-Logo.jpg" alt="Oracle Logo">
+        <h3>Java</h3>
+      </div>
+      <p class="issuer">Oracle Academy</p>
+      <a href="certificates/oracle certificate.pdf" target="_blank" class="view-cert">View Credential</a>
+    </div>
+
+    <!-- Great Learning -->
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/LOGO.jpg" alt="Great Learning Logo">
+        <h3>Front End Development - HTML</h3>
+      </div>
+      <p class="issuer">Great Learning</p>
+      <a href="certificates/html certificate.jpg" target="_blank" class="view-cert">View Certificate</a>
+    </div>
+
+    <!-- HackerRank -->
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/HackerRank_Icon-1000px.png" alt="HackerRank Logo">
+        <h3>C Basics</h3>
+      </div>
+      <p class="issuer">HackerRank</p>
+      <a href="certificates/c.jpeg" target="_blank" class="view-cert">View Certificate</a>
+    </div>
+
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/HackerRank_Icon-1000px.png" alt="HackerRank Logo">
+        <h3>Problem Solving (Basic)</h3>
+      </div>
+      <p class="issuer">HackerRank</p>
+      <a href="certificates/problem_solving_basic.pdf" target="_blank" class="view-cert">View Certificate</a>
+    </div>
+
+    <!-- Cisco -->
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/Cisco_logo.png" alt="Cisco Logo">
+        <h3>C Programming</h3>
+      </div>
+      <p class="issuer">Cisco</p>
+      <a href="certificates/cisco.jpg" target="_blank" class="view-cert">View Certificate</a>
+    </div>
+
+    <!-- Cisco -->
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/Cisco_logo.png" alt="Cisco Logo">
+        <h3>Python</h3>
+      </div>
+      <p class="issuer">Cisco</p>
+      <a href="certificates/python.pdf" target="_blank" class="view-cert">View Certificate</a>
+    </div>
+
+
+    <!-- MePro -->
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/Mepro.webp" alt="MePro Logo">
+        <h3>Pearson Certification</h3>
+      </div>
+      <p class="issuer">MePro</p>
+      <a href="certificates/Pearson certificate.pdf" target="_blank" class="view-cert">View Certificate</a>
+    </div>
+
+    <!-- Hackathon -->
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/hackthon.jpg" alt="Adhoc Logo">
+        <h3>Android Development</h3>
+      </div>
+      <p class="issuer">Adhoc Aditya Tech Fusion</p>
+      <p class="date">Hackathon Winner</p>
+      <a href="certificates/adhoc hackthon.pdf" target="_blank" class="view-cert">View Details</a>
+    </div>
+
+    <!-- Coding Ninja -->
+    <div class="certification-card">
+      <div class="certification-header">
+        <img src="images/codingninjas.svg" alt="Coding Ninjas Logo">
+        <h3>Advanced Excel & AI Interview Tips</h3>
+      </div>
+      <p class="issuer">Amazon (via Coding Ninjas)</p>
+      <a href="certificates/coding ninja.jpg" target="_blank" class="view-cert">View Certificate</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECTION 6: Education -->
+<section id="education" class="education-section">
+  <h2>Education</h2>
+  
+  <div class="education-container">
+    <!-- BCA -->
+    <div class="education-card">
+      <div class="education-header">
+        <img src="images/aditya.jpg" alt="Aditya Degree College Logo">
+        <div class="education-title">
+          <h3>Bachelor of Computer Applications (BCA)</h3>
+          <p class="institution">Aditya Degree College, Visakhapatnam</p>
+          <p class="duration">June 2022 – June 2025</p>
+        </div>
+      </div>
+      <div class="education-details">
+        <div class="semester-certs">
+          <h4>Semester Certificates:</h4>
+          <div class="cert-buttons">
+            <a href="certificates/sem1.pdf" target="_blank" class="edu-cert-btn">Semester 1</a>
+            <a href="certificates/sem2.pdf" target="_blank" class="edu-cert-btn">Semester 2</a>
+            <a href="certificates/sem3.pdf" target="_blank" class="edu-cert-btn">Semester 3</a>
+            <a href="certificates/sem4.pdf" target="_blank" class="edu-cert-btn">Semester 4</a>
+            <a href="certificates/sem5.pdf" target="_blank" class="edu-cert-btn">Semester 5</a>
+            <a href="certificates/sem6.pdf" target="_blank" class="edu-cert-btn">Semester 6</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intermediate -->
+    <div class="education-card">
+      <div class="education-header">
+        <img src="images/gayatri.webp" alt="Sri Gayatri Jr. College Logo">
+        <div class="education-title">
+          <h3>Intermediate (MPC)</h3>
+          <p class="institution">Sri Gayatri Jr. College, Visakhapatnam</p>
+          <p class="duration">June 2020 - June 2022</p>
+        </div>
+      </div>
+      <div class="education-details">
+        <a href="certificates/12.pdf" target="_blank" class="edu-cert-btn full-cert">
+          <i class="fas fa-certificate"></i> View Certificate
+        </a>
+      </div>
+    </div>
+
+    <!-- Matriculation -->
+    <div class="education-card">
+      <div class="education-header">
+        <img src="images/DAV_CMC_Logo.svg.png" alt="D.A.V School Logo">
+        <div class="education-title">
+          <h3>Matriculation</h3>
+          <p class="institution">D.A.V Centenary Public School, Visakhapatnam</p>
+          <p class="duration">June 2019 - June 2020</p>
+        </div>
+      </div>
+      <div class="education-details">
+        <a href="certificates/12.pdf" target="_blank" class="edu-cert-btn full-cert">
+          <i class="fas fa-certificate"></i> View Certificate
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 7: Experience -->
+<section id="experience" class="experience-section">
+  <h2>Experience</h2>
+  
+  <div class="timeline">
+    <!-- Internship 1 -->
+    <div class="timeline-item">
+      <div class="timeline-header">
+        <div class="timeline-company">
+          <img src="images/ulearn.jpg" alt="U Learn Logo">
+          <h3>ML and AI using Python</h3>
+        </div>
+        <div class="timeline-details">
+          <span class="company-name">U Learn</span>
+          <span class="internship-role">Internship</span>
+          <span class="timeline-date">June 2024 - August 2024</span>
+        </div>
+      </div>
+      <div class="timeline-content">
+        <ul>
+          <li>Visualized a fraud detection model using credit card dataset with pandas, NumPy, matplotlib, seaborn, and scikit-learn</li>
+          <li>Collaborated in a team, gaining team management skills and proficiency in data manipulation</li>
+          <li>Used Anaconda Navigator to streamline development and manage project dependencies</li>
+          <li>Completed assignments and quizzes on data analysis and fraud detection models</li>
+        </ul>
+        <a href="certificates/Ulearn Intern certificate .pdf" target="_blank" class="internship-cert-btn">
+          <i class="fas fa-certificate"></i> View Certificate
+        </a>
+      </div>
+    </div>
+
+    <!-- Internship 2 -->
+    <div class="timeline-item">
+      <div class="timeline-header">
+        <div class="timeline-company">
+          <img src="images/cyberthreya.jpg" alt="CyberThreya Logo">
+          <h3>SoC Analyst</h3>
+        </div>
+        <div class="timeline-details">
+          <span class="company-name">CyberThreya</span>
+          <span class="internship-role">Internship</span>
+          <span class="timeline-date">December 2024 - March 2025</span>
+        </div>
+      </div>
+      <div class="timeline-content">
+        <ul>
+          <li>Monitor networks and systems for suspicious activities using SIEM tools</li>
+          <li>Analyze alerts, investigate threats, and implement security measures</li>
+          <li>Stay updated on emerging cyber threats and collaborate to strengthen defenses</li>
+          <li>Assist in incident response and log analysis to identify security breaches</li>
+        </ul>
+        <a href="certificates/longterm.pdf" target="_blank" class="internship-cert-btn">
+          <i class="fas fa-certificate"></i> View Certificate
+        </a>
+      </div>
+    </div>
+
+    <!-- Internship 3 -->
+    <div class="timeline-item">
+      <div class="timeline-header">
+        <div class="timeline-company">
+          <img src="images/cyberthreya.jpg" alt="CyberThreya Logo">
+          <h3>VAPT</h3>
+        </div>
+        <div class="timeline-details">
+          <span class="company-name">CyberThreya</span>
+          <span class="internship-role">Internship</span>
+          <span class="timeline-date">February 2025 - May 2025</span>
+        </div>
+      </div>
+      <div class="timeline-content">
+        <ul>
+          <li>Hands-on learning in Vulnerability Assessment and Penetration Testing</li>
+          <li>Exploring security testing methodologies and ethical hacking techniques</li>
+          <li>Gaining practical experience with vulnerability scanning and risk assessment</li>
+        </ul>
+        <a href="certificates/vaapt.pdf" target="_blank" class="internship-cert-btn">
+          <i class="fas fa-certificate"></i> View Certificate
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- SECTION 8: Resume section -->
+<section id="resume" class="resume-section">
+  <div class="resume-container">
+    <h2>My Resume</h2>
+    <div class="resume-content">
+      <div class="resume-preview">
+        <img src="images/resume.png" alt="Resume Preview" class="resume-thumbnail">
+        <div class="resume-details">
+          <h3>Prem Kumar Neeli</h3>
+          <p>Computer Applications Graduate | Full-Stack Developer</p>
+          <div class="resume-stats">
+            <span><i class="fas fa-file-alt"></i> PDF, 2MB</span>
+            <span><i class="fas fa-calendar-alt"></i> Updated: July 2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="download-options">
+        <a href="certificates/Prem Kumar Neeli ().pdf" download="Prem_Kumar_Neeli_Resume.pdf" class="download-btn main-download">
+          <i class="fas fa-download"></i> Download Full Resume
+        </a>
+        <div class="alternative-formats">
+          <p>Also available in:</p>
+          <a href="https://docs.google.com/document/d/1tnv85S_GlDagrGinEsc1o6mDRfT3pQQThOegLQ4rjKI/edit?tab=t.0" download class="format-btn">
+            <i class="fas fa-file-word"></i> DOCX
+          </a>
+          <a href="certificates/txt.txt" download class="format-btn">
+            <i class="fas fa-file-alt"></i> TXT
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+<!-- SECTION 9: Contact -->
+<section id="contact" class="contact-section">
+  <h2>Contact</h2>
+
+  <div class="group">
+    <div class="text">
+      I'm always open to tech discussions, collaborations, or new opportunities.
+      Please use the form below to send me a message.
+    </div>
+
+    <form id="contactForm">
+      <label for="name">Name</label>
+      <input type="text" name="user_name" id="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" name="user_email" id="email" required>
+
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="5" required></textarea>
+
+      <button type="submit" id="submitBtn">Send Message</button>
+      <div id="formFeedback" style="margin-top: 15px;"></div>
+    </form>
+  </div>
+</section>
+
+<!-- EmailJS Script with improved error handling -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  // Initialize EmailJS with your public key
+  (function() {
+    emailjs.init('z53X7-alEN0qwynU4'); // Replace with your actual public key
+    
+    const contactForm = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const feedbackDiv = document.getElementById('formFeedback');
+    
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Disable button and show loading state
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+      feedbackDiv.textContent = '';
+      feedbackDiv.style.color = 'inherit';
+      
+      emailjs.sendForm('service_buhdmvj', 'template_wvuw5fi', this)
+        .then(function() {
+          // Success message
+          feedbackDiv.textContent = 'Message sent successfully!';
+          feedbackDiv.style.color = 'green';
+          contactForm.reset();
+        }, function(error) {
+          // Error message
+          feedbackDiv.textContent = 'Failed to send message. Please try again or contact me directly.';
+          feedbackDiv.style.color = 'red';
+          console.error('EmailJS Error:', error);
+        })
+        .finally(function() {
+          // Reset button state
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send Message';
+        });
+    });
+  })();
+</script>
+
+
+  </main>
+  <!-- Footer Section -->
+<footer class="footer-section">
+  <div class="footer-background-wrapper">
+    <div class="footer-container">
+    <!-- Footer Columns -->
+    <div class="footer-grid">
+      <!-- About Column -->
+      <div class="footer-column">
+        <h3>Prem Kumar Neeli</h3>
+        <p>Computer Applications Graduate passionate about building innovative solutions through code and cybersecurity.</p>
+        <div class="footer-social">
+          <a href="https://github.com/prem2486" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/prem2004/" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:neelipremkumar27@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links Column -->
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a></li>
+          <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+          <li><a href="#certifications"><i class="fas fa-chevron-right"></i> Certifications</a></li>
+          <li><a href="#experience"><i class="fas fa-chevron-right"></i> Experience</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info Column -->
+      <div class="footer-column">
+        <h3>Contact Info</h3>
+        <ul class="footer-contact">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Visakhapatnam, India</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:neelipremkumar27@gmail.com">neelipremkumar27@gmail.com</a>
+          </li>
+          <li>
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+919876543210">+91 8464008754</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Copyright & Credits -->
+    <div class="footer-bottom">
+      <div class="copyright">
+        &copy; <span id="current-year"></span> Prem Kumar Neeli. All Rights Reserved.
+      </div>
+      <div class="credits">
+        Made with <i class="fas fa-heart" style="color: #e74c3c;"></i> by Prem
+      </div>
+    </div>
+  </div>
+  </div>
+</footer>
+
+
+<script>
+  // Auto-update copyright year
+  document.getElementById('current-year').textContent = new Date().getFullYear();
+  
+  // Smooth scrolling for footer links
+  document.querySelectorAll('.footer-links a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+
+<script>
+  // Simple scroll animation implementation
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get all sections
+    const sections = document.querySelectorAll('section');
+    
+    // Options for the Intersection Observer
+    const options = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+    
+    // Create the observer
+    const observer = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+          
+          // Animate child elements with delays
+          const animatables = entry.target.querySelectorAll('.slide-in-left, .slide-in-right, .fade-in');
+          animatables.forEach((el, index) => {
+            setTimeout(() => {
+              el.classList.add('animate');
+            }, index * 100);
+          });
+        }
+      });
+    }, options);
+    
+    // Observe each section
+    sections.forEach(section => {
+      section.classList.add('section-hidden');
+      observer.observe(section);
+    });
+    
+    // Special handling for hero section elements
+    const heroText = document.querySelector('.hero-section .text');
+    const heroHeadshot = document.querySelector('.hero-section .headshot');
+    
+    if (heroText) heroText.classList.add('slide-in-left');
+    if (heroHeadshot) heroHeadshot.classList.add('slide-in-right', 'delay-1');
+    
+    // Add fade-in to skill cells
+    document.querySelectorAll('.skills-section .cell').forEach((cell, index) => {
+      cell.classList.add('fade-in', `delay-${index % 5}`);
+    });
+    
+    // Add fade-in to project cards
+    document.querySelectorAll('.project-card').forEach((card, index) => {
+      card.classList.add('fade-in', `delay-${index % 3}`);
+    });
+    
+    // Add fade-in to certification cards
+    document.querySelectorAll('.certification-card').forEach((card, index) => {
+      card.classList.add('fade-in', `delay-${index % 4}`);
+    });
+  });
+</script>
+
+<script>
+  // Responsive scroll animations
+  document.addEventListener('DOMContentLoaded', function() {
+    // Check if user prefers reduced motion
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    
+    // Only run animations if user hasn't requested reduced motion
+    if (!prefersReducedMotion) {
+      // Get viewport width
+      const viewportWidth = window.innerWidth;
+      
+      // Adjust animation settings based on viewport
+      const animationSettings = {
+        threshold: viewportWidth < 768 ? 0.05 : 0.1,
+        rootMargin: viewportWidth < 768 ? '0px 0px -20px 0px' : '0px 0px -50px 0px',
+        delayMultiplier: viewportWidth < 768 ? 50 : 100
+      };
+      
+      // Create intersection observer
+      const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate');
+            
+            // Animate child elements with responsive delays
+            const animatables = entry.target.querySelectorAll('.slide-in-left, .slide-in-right, .fade-in');
+            animatables.forEach((el, index) => {
+              setTimeout(() => {
+                el.classList.add('animate');
+              }, index * animationSettings.delayMultiplier);
+            });
+          }
+        });
+      }, {
+        threshold: animationSettings.threshold,
+        rootMargin: animationSettings.rootMargin
+      });
+      
+      // Observe all sections
+      document.querySelectorAll('section').forEach(section => {
+        section.classList.add('section-hidden');
+        observer.observe(section);
+      });
+      
+      // Handle hero section separately
+      const heroText = document.querySelector('.hero-section .text');
+      const heroHeadshot = document.querySelector('.hero-section .headshot');
+      
+      if (heroText) heroText.classList.add(viewportWidth < 768 ? 'fade-in' : 'slide-in-left');
+      if (heroHeadshot) heroHeadshot.classList.add(viewportWidth < 768 ? 'fade-in delay-1' : 'slide-in-right delay-1');
+      
+      // Animate other elements
+      const animateElements = (selector, animationClass) => {
+        document.querySelectorAll(selector).forEach((el, index) => {
+          el.classList.add(animationClass, `delay-${index % (viewportWidth < 768 ? 3 : 5)}`);
+        });
+      };
+      
+      animateElements('.skills-section .cell', 'fade-in');
+      animateElements('.project-card', viewportWidth < 768 ? 'fade-in' : 'slide-in-left');
+      animateElements('.certification-card', 'fade-in');
+      
+      // Handle resize events
+      let resizeTimeout;
+      window.addEventListener('resize', function() {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(function() {
+          if (window.innerWidth !== viewportWidth) {
+            location.reload(); // Simple solution to re-calculate animations
+          }
+        }, 200);
+      });
+    } else {
+      // Fallback for reduced motion - just show everything
+      document.querySelectorAll('.section-hidden, .slide-in-left, .slide-in-right, .fade-in').forEach(el => {
+        el.classList.add('animate');
+      });
+    }
+  });
+</script>
+</body>
+</html>

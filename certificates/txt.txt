@@ -1,0 +1,92 @@
+Prem Kumar Neeli
+Location: Visakhapatnam, India
+Email: neelipremkumar27@gmail.com
+Phone: +91 8464008754
+GitHub: https://github.com/prem2486
+
+Objective
+BCA graduate with strong analytical and problem-solving skills, eager to apply technical knowledge in a dynamic role that fosters professional growth.
+
+Skills
+
+
+
+
+Programming Languages: Java (Basic), Python (Basic), C (Basic), R (Basic)
+Web Development: HTML, CSS, JavaScript
+Soft Skills: Problem Solving, Team Collaboration, Leadership, Communication, Adaptability, Time Management, Critical Thinking, Creativity
+
+Education
+
+
+
+
+Bachelor of Computer Applications (BCA)
+Aditya Degree College, Visakhapatnam | June 2022 – Present
+Intermediate (MPC)
+Sri Gayatri Jr. College, Visakhapatnam | June 2020 - June 2022
+Matriculation
+D.A.V Centenary Public School, Visakhapatnam | June 2019 - June 2020
+
+Experience
+
+
+Internship | U Learn
+ML and AI using Python
+June 2024 - August 2024
+o Visualized a fraud detection model using a credit card dataset and libraries such as pandas, NumPy, matplotlib, seaborn, and scikit-learn.
+o Collaborated in a team, gaining team management skills and proficiency in data manipulation and visualization techniques.
+o Used Anaconda Navigator to streamline the development process and managed project dependencies.
+o Completed assignments and quizzes to strengthen understanding of data analysis and fraud detection models.
+
+
+
+Internship | CyberThreya
+SoC Analyst
+December 2024 - Present
+o Continuously monitor networks and systems for suspicious activities using SIEM tools.
+o Analyze alerts, investigate threats, and implement security measures to mitigate risks.
+o Stay updated on emerging cyber threats and collaborate to strengthen defenses.
+o Assist in incident response and log analysis to identify and contain security breaches.
+
+
+
+Internship | CyberThreya
+VAPT- Vulnerability Assessment and Penetration Testing
+March 2025 - Present
+o Initiated hands-on learning in Vulnerability Assessment and Penetration Testing (VAPT)
+o Exploring security testing methodologies and ethical hacking techniques.
+o Gaining practical experience with vulnerability scanning and risk assessment.
+
+Projects
+
+
+Fraud Detection Using Visualization
+o Created a visualization on credit card fraud detection using Anaconda Navigator.
+o Utilized libraries like matplotlib, seaborn, and pandas for data analysis and applied various commands to interpret fraud patterns effectively.
+
+
+
+Responsive Website Development
+o Developed a fully responsive website adaptable to different screen sizes using HTML, CSS, and JavaScript.
+
+Certifications & Courses
+
+
+
+
+
+
+
+
+
+Java Foundation | Oracle Academy
+DBMS | Oracle Academy
+Front End Development - HTML Certification | Great Learning
+C Basics | Hacker Rank
+Problem Solving (Basic) | Hacker Rank
+C | Cisco
+Pearson Certification | MePro
+Hackathon - Android Development | Adhoc Aditya Tech Fusion
+
+
